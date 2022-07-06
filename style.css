@@ -1,6 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
-}
+  margin: 0%;
+  }
 h1{
   font-size: 50px;
 }
@@ -10,6 +11,7 @@ h1{
 
 section{
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width{
   width: 50%;
@@ -26,4 +28,16 @@ section{
   font-size: 20px;
   font-weight: 700px;
   color: aliceblue;
+}
+#background{
+background-image: url(eat-healthy-main/images/shapes/7.png);
+padding-bottom: 5px 5px 5px 5px;
+}
+#background img{
+  width: 60%;
+  padding-top: 70px;
+  padding-left: 90px;
+}
+p{
+  font-size: medium;
 }
